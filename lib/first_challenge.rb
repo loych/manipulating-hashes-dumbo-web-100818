@@ -17,7 +17,7 @@ end
   #your code here
 contacts.each do |person, data|
   data.each do |attribute, value|
-    if attribute == :favorite_icecream_flavors && value.find  => "strawberry"
+    if attribute == :favorite_icecream_flavors && value.find ("strawberry")
       value.delete_if |flavor| 
   #remember to return your newly altered contacts hash!
 puts contacts
