@@ -17,5 +17,6 @@ end
 contacts["Freddy Mercury"][:favorite_icecream_flavors] => "cookie dough", "mint chip"
   #remember to return your newly altered contacts hash!
  contacts
+ end
 
 
