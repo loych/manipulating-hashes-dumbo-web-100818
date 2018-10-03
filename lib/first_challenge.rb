@@ -12,15 +12,7 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-contacts["Freddy Mercury"][favorite_icecream_flavors].delete
-
-  #your code here
-contacts.each do |person, data|
-  data.each do |attribute, value|
-    if attribute == :favorite_icecream_flavors && value.find ("strawberry")
-      value.delete_if |value| 
-  #remember to return your newly altered contacts hash!
+contacts["Freddy Mercury"][favorite_icecream_flavors].delete("strawberry")
 contacts
-end
 
 end
